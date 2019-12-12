@@ -4,6 +4,7 @@
   "description": "Silly app to track people pushup performances",
   "main": "index.js",
   "scripts": {
+    "server": "forever -c \"nodemon --exitcrash -L\" index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
